@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="all" />
+    <meta name="description" content="#" />
+    <title>びわ湖建材｜滋賀の家づくりを支える</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Tektur:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/logo.gif" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="wrapper-xl">
+      <div class="index wrapper-l">
+        <h1>
+          <a href="index.html"><img
+            src="images/logo.gif"
+            width="1000"
+            height="1000"
+            alt="びわ湖建材ロゴ"
+          /><span class="logo">株式会社びわ湖建材</span></a>
+        </h1>
+        <nav class="global">
+          <ul>
+            <li>
+              <a href="philosophy.html"
+                ><span class="sub-title">びわ湖建材について</span></a
+              >
+            </li>
+            <li>
+              <a href="preparation.html"
+                ><span class="sub-title">事業内容</span></a
+              >
+            </li>
+            <li>
+              <a href="member.html"><span class="sub-title">会員登録</span></a>
+            </li>
+            <li>
+              <a href="preparation.html"
+                ><span class="sub-title">アクセス</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="visual_img">
+        <p></p>
+      </div>
+
+      <div class="content">
+        <section>
+          <div class="wrapper-l">
+            <h2 class="main-title">会員登録フォーム</h2>
+            <p>新規会員登録いただいた方の中に抽選でドリンクをプレゼント！</p>
+            <form action="sample.cgi" method="post">
+              <table>
+                <tr>
+                  <th><label for="name">お名前</label></th>
+                  <td>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="例：山田　太郎"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <th><label for="mail">メールアドレス</label></th>
+                  <td>
+                    <input type="email" name="mail" id="mail" /><br />
+                    <input type="email" name="re_mail" /><span>※再入力</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th><label for="mail">電話番号</label></th>
+                  <td>
+                    <input type="phone" name="phone" id="phone" /><br />
+                    <input type="email" name="re_mail" /><span>※再入力</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>お電話での折り返しのご連絡を希望する</th>
+                  <td>
+                    <input
+                      type="radio"
+                      name="magazine"
+                      value="yes"
+                      id="yes"
+                      checked
+                    />
+                    <label for="yes">希望する</label>
+                    <input type="radio" name="magazine" value="no" id="no" />
+                    <label for="no">希望しない</label>
+                  </td>
+                </tr>
+                <tr>
+                  <th>都道府県</th>
+                  <td>
+                    <select name="local">
+                      <option>ここから選択してください</option>
+                      <option value="shiga">滋賀県</option>
+                      <option value="kyoto">京都府</option>
+                      <option value="osaka">大阪府</option>
+                      <option value="gifu">岐阜県</option>
+                      <option value="mie">三重県</option>
+                      <option value="other">その他</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <th>よく使用するメーカー</th>
+                  <td>
+                    <input
+                      type="checkbox"
+                      name="manufacture"
+                      value="adjust"
+                      id="adjust"
+                    />
+                    <label for="adjust">アジャスト</label>
+
+                    <input
+                      type="checkbox"
+                      name="manufacture"
+                      value="adjust2"
+                      id="adjust2"
+                    />
+                    <label for="adjust2">亜者素戸</label>
+
+                    <input
+                      type="checkbox"
+                      name="manufacture"
+                      value="academy"
+                      id="academy"
+                    />
+                    <label for="academy">A.academy</label>
+                    <input
+                      type="checkbox"
+                      name="manufacture"
+                      value="plus"
+                      id="plus"
+                    />
+                    <label for="plus">ADJUST+</label>
+                    <input
+                      type="checkbox"
+                      name="manufacture"
+                      value="other"
+                      id="other"
+                    />
+                    <label for="other">その他</label>
+                  </td>
+                </tr>
+                <tr>
+                  <th>メルマガを希望する</th>
+                  <td>
+                    <input
+                      type="radio"
+                      name="magazine"
+                      value="yes"
+                      id="yes"
+                      checked
+                    />
+                    <label for="yes">希望する</label>
+                    <input type="radio" name="magazine" value="no" id="no" />
+                    <label for="no">希望しない</label>
+                  </td>
+                </tr>
+                <tr>
+                  <th><label for="comment">その他</label></th>
+                  <td>
+                    <textarea
+                      name="comment"
+                      rows="6"
+                      id="comment"
+                      placeholder="何かご不明点がございましたら、こちらにご記入をお願いいたします。担当者より当日中にご連絡をさせていただきます。"
+                    ></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="send">
+                    <input type="submit" value="送信ボタン" />
+                    <input type="reset" value="リセットボタン" />
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <div class="wrapper-l">
+        <div class="search white">
+          <section>
+            <h3 class="sub-title">商品・カタログ検索</h3>
+            <div>
+              <a href="#"
+                ><img
+                  src="./images/search.png"
+                  width="247"
+                  height="183"
+                  alt="検索アイコン"
+                  class="icon"
+              /></a>
+            </div>
+            <p>在庫状況をリアルタイムで更新！</p>
+          </section>
+          <section>
+            <h3 class="sub-title">お問い合わせ</h3>
+            <div>
+              <a href="#"
+                ><img
+                  src="./images/request.png"
+                  width="247"
+                  height="183"
+                  alt="お問い合わせアイコン"
+                  class="icon"
+              /></a>
+            </div>
+            <p>お見積りやご相談も当日中に回答！</p>
+          </section>
+          <section>
+            <h3 class="sub-title">LINE登録</h3>
+            <div>
+              <a href="#"
+                ><img
+                  src="./images/line.png"
+                  width="247"
+                  height="183"
+                  alt="ライン登録アイコン"
+                  class="icon"
+              /></a>
+            </div>
+            <p>おトクな情報をお知らせ！</p>
+          </section>
+        </div>
+      </div>
+
+      <footer>
+        <div class="wrapper-l">
+          <div class="content">
+            <div class="address">
+              <h1>
+                <a href="index.html"
+                  ><span class="logo">株式会社びわ湖建材</span></a
+                >
+              </h1>
+              <address class="white">
+                <span>0749-00-0000</span><br />
+                〒000-0000 滋賀県彦根市〇〇〇
+              </address>
+            </div>
+
+            <div class="g-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.1879908256333!2d136.251846!3d35.276452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60022b2b5dbfdbc3%3A0xee2a210b78298c30!2z5b2m5qC55Z-O!5e0!3m2!1sja!2sjp!4v1744682804131!5m2!1sja!2sjp"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
+            <nav class="local">
+              <ul>
+                <li><a href="philosophy.html">企業情報</a></li>
+                <li><a href="preparation.html">事業内容</a></li>
+                <li><a href="member.html">会員登録</a></li>
+                <li><a href="preparation.html">採用情報</a></li>
+                <li><a href="preparation.html">アクセス</a></li>
+                <li><a href="preparation.html">プライバシーポリシー</a></li>
+                <li><a href="preparation.html">個人情報保護方針</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="fix_box">
+            <p class="top white">
+              <a href="index.html"
+                ><img
+                  src="./images/top_btn.png" width="569" height="569"
+                  alt="TOPへ戻るボタン"
+                  class="icon"
+              /></a>
+            </p>
+          </div>
+
+          <small>&copy;2025 BIWAKO Building Materials.</small>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
